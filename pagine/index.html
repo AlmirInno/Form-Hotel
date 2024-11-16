@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="title">
+            <h1>PRENOTA ORA!</h1>
+        </div>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Prenotazione</legend>
+                <div>
+                    <label for="rooms"> Numero di stanze</label>
+                </div>
+                <div>
+                    <select name="rooms" id="rooms">
+                        <option value="camera">1 camera</option>
+                        <option value="2 camere">2 camere</option>
+                        <option value="3 camere">3 camere</option>
+                        <option value="4 camere">4 camere</option>
+                        <option value="5 camere">5 camere</option>
+                    </select>
+                </div>
+
+
+                <div>
+                    <p>Colazione inclusa?</p>
+                </div>
+
+                <div class="risposta">
+                    <div><label for="Si"> Si</label></div>
+                    <div><input type="checkbox" name="Si" value="Si"></div>
+                    <div><label for="No"> No</label></div>
+                    <div><input type="checkbox" name="risposta" value="No"></div>
+                </div>
+
+
+                <div class="adults">
+                    <div><label for="adults">Numero adulti</label></div>
+                    <select name="adults" id="adults">
+                        <option value="adult">1 adulto</option>
+                        <option value="2 adults">2 adulti</option>
+                        <option value="3 adults">3 adulti</option>
+                        <option value="4 adults">4 adulti</option>
+                        <option value="5 adults">5 adulti</option>
+                        <option value="6 adults">6 adulti</option>
+                        <option value="7 adults">7 adulti</option>
+                        <option value="8 adults">8 adulti</option>
+                        <option value="9 adults">9 adulti</option>
+                        <option value="10 adults">10 adulti</option>
+                    </select>
+                </div>
+
+                <div class="kids">
+                    <div><label for="kids">Numero bambini</label></div>
+                    <div><select name="kids" id="kids">
+                            <option value="kids">1 bambino</option>
+                            <option value="kids">2 bambini</option>
+                            <option value="kids">3 bambini</option>
+                            <option value="kids">4 bambini</option>
+                            <option value="kids">5 bambini</option>
+                            <option value="kids">6 bambini</option>
+                            <option value="kids">7 bambini</option>
+                            <option value="kids">8 bambini</option>
+                            <option value="kids">9 bambini</option>
+                            <option value="kids">10 bambini</option>
+                            <option value="kids">11 bambini</option>
+                            <option value="kids">12 bambini</option>
+                            <option value="kids">13 bambini</option>
+                            <option value="kids">14 bambini</option>
+                            <option value="kids">15 bambini</option>
+                        </select></div>
+                </div>
+
+                <div>
+                    <p>Animali da compagnia?</p>
+                </div>
+
+                <div class="risposta">
+                    <div><label for="Si">Si</label></div>
+                    <div><input type="checkbox" name="Si" value="Si"></div>
+                    <div><label for="No">No</label></div>
+                    <div><input type="checkbox" name="No" value="No"></div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Dati personali
+                </legend>
+
+                <div>
+                    <div><label for="nome">Nome</label></div>
+                    <div><input type="text" name="nome" id="nome" placeholder="Enter your full name"></div>
+                    <div><label for="cognome">Cognome</label></div>
+                    <div><input type="text" name="cognome" id="cognome" placeholder="Enter your full name"></div>
+                    <div><label for="number">Numero di telefono</label></div>
+                    <div><input type="tel" name="number" id="number" placeholder="+417..."></div>
+                    <div><label for="email"></label>E-mail</div>
+                    <div><input type="email" name="email" id="email" placeholder="Enter your full e-mail"></div>
+                </div>
+
+                <div class="button">
+                    <div> <button type="reset">Indietro</button></div>
+                    <div><button type="submit">Prenota</button></div>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+</body>
+
+</html>
